@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one, .section-one__Contactpage {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.section-one__role {
+    background-color: orangered;
+    display: inline-block;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.section-two, .section-three, .section-four, .section-five, .section-six {
+    margin: 20px;
+}
+
+.section-two__intro, .section-three__interest, .section-four__project,
+.section-five__experience, .section-six__contact {
+    margin: 10px;
+}
+
+.section-six {
+    background-color: black;
+    color: white;
+}
+
+.section-six__contact a {
+    color: skyblue;
+}
+
+.section-three li, .section-four li,
+.section-five li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #7ABEC9;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.section-four {
+    background-color: #E9C4A8;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.section-five {
+    background-color: #E96C5A;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+
+.homepage {
+    padding-left: 10px;
+    display: inline-block;
+    background-color: #E9C4A8;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.section-one__Contactpage {
+    padding: 50px;
+}
+
+.section-one__contactpagename, .section-one__contactpagerole {
+    padding-top: 10px;
+}
+
+.section-two__contactdetails {
+    padding: 10px;
+}
+
+.contactform__input { 
+    margin-top: 10px;
+    padding: 5px;
+    border-style: none;
+    border-bottom: solid black 1px;
+}
+
+.contactform__textarea { 
+    padding: 10px;
+    border: solid black 1px;
+    margin-top: 10px;
+}
+
+table {margin-left: 50px;}
+
+.contactform__submit { margin: 30px; padding: 10px; background-color: #E9C4A8; color: black; border-width: 0; }
+
+.section-one__Contactpage, .section-six__contact {margin: 50px;}
